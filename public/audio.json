@@ -1,0 +1,44 @@
+{
+    "tracks": [
+        {
+            "title": "Home/Fold",
+            "cover": "Photos/home.fold 1.png",
+            "audio": "Audio/home.fold.mp3"
+        },
+        {
+            "title": "Japan 2025 (demo)",
+            "cover": "Photos/IMG_9089 1.png",
+            "audio": "Audio/japan.mp3"
+        },
+        {
+            "title": "MESSY (demo)",
+            "cover": "Photos/IMG_9089 1.png",
+            "audio": "Audio/MESSSY.mp3"
+        },
+        {
+            "title": "Sedate Me (demo)",
+            "cover": "Photos/IMG_9089 1.png",
+            "audio": "Audio/sedate me.mp3"
+        },
+        {
+            "title": "This Is What Man Wants (demo)",
+            "cover": "Photos/IMG_9089 1.png",
+            "audio": "Audio/this is what man wants.mp3"
+        },
+        {
+            "title": "KASAMA",
+            "cover": "Photos/Frame 15 1.png",
+            "audio": "Audio/KASAMA.mp3"
+        },
+        {
+            "title": "Cant Sleep",
+            "cover": "Photos/Frame 15 1.png",
+            "audio": "Audio/cant sleep.mp3"
+        },
+        {
+            "title": "Dont Love Me Anymore",
+            "cover": "Photos/Frame 15 1.png",
+            "audio": "Audio/dont love me no more.mp3"
+        }
+    ]
+}

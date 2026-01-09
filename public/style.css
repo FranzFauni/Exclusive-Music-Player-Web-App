@@ -1,0 +1,249 @@
+/*?google font imports*/
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+body{
+  background-color:rgb(98, 124, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 610px;
+}
+
+#header-text{
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  color: rgb(233, 208, 180);
+  text-shadow: -1px 1px 1px rgba(229, 129, 76), 
+               -2px 2px 1px rgba(241, 72, 72),
+               -3px 3px 1px rgba(50, 70, 169),
+               -4px 4px 1px rgba(133, 45, 147);
+}
+
+#logo{
+  height: 80px;
+  padding-top: 25px;
+}
+
+.main{
+  display: flex;
+  flex-direction:column ;
+  width: 900px;
+  background-color: brown;
+}
+
+.mp3{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(233, 208, 180);
+  height: 270px;
+  width: 371px;
+  box-shadow: 2px 3px 3px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+.mp3_header{
+  background-color:rgba(241, 72, 72);
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  color: white;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+#title_header{
+  font-size: 17px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 7px;
+  text-shadow: 2px 2.5px 1px rgba(0, 0, 0, 0.25);
+}
+
+#window_buttons{
+  float: right;
+  margin-top: 7px;
+  margin-right: 3px;
+}
+
+#cover_photo{
+  align-self: center;
+  width: 120px;
+  padding-top: 10px;
+}
+
+.player{
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-self:center; 
+  margin-top: 9px;
+  height: 219px;
+  width: 354px;
+  background-color: white;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+#song_title{
+  color: rgb(233, 208, 180);
+  text-shadow: -1px 1px 1px rgb(229, 129, 76), 
+               -2px 2px 1px rgb(241, 72, 72),
+               -3px 3px 1px rgb(50, 70, 169),
+               -4px 4px 1px rgb(133, 45, 147);
+  padding-bottom: 15px;
+  
+}
+
+.progress_container{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  background-color: black;
+  cursor: pointer;
+  height: 5px;
+  width: 63%;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+
+.progress{
+  background-color: rgb(241, 72, 72);
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.action{
+  border:none; 
+  background:none; 
+  padding:0; 
+  cursor:pointer;
+}
+
+.list{
+  margin-top: 40px;
+  padding-bottom: 13px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(233, 208, 180);
+  height: 275px;
+  width: 371px;
+  box-shadow: 2px 3px 3px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+.list_header{
+  background-color:rgba(229, 129, 76, 1);
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  color: white;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.tracks_list{
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-self:center; 
+  margin-top: 9px;
+  height: 219px;
+  width: 354px;
+  background-color: white;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+#tracks{
+  text-align: left;
+  text-indent:13px ;
+  font-size: small;
+  line-height: 1px;
+  cursor: pointer;
+}
+
+.contact{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(233, 208, 180);
+  height: 250px;
+  width: 371px;
+  padding-bottom: 9px;
+  box-shadow: 2px 3px 3px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+.contact_header{
+  margin-top: 0px;
+  background-color:rgb(80, 99, 196);
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  color: white;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.contact_form{
+  font-family: "Agbalumo", system-ui;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-self: center ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+  margin-bottom: 1px;
+  height: 200px;
+  width: 354px;
+  background-color: white;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 748px) and (max-width: 1920px) {
+
+#header-text{
+  font-size: 50px;
+  text-shadow: -3px 3px 1px rgb(229, 129, 76), 
+               -6px 6px 1px rgb(241, 72, 72),
+               -8px 8px 1px rgb(50, 70, 169),
+               -10px 10px 1px rgb(133, 45, 147);
+}
+
+#logo{
+  height: 140px;
+  margin-bottom: -40px;
+}
+
+.main{
+  width: 1500px;
+}
+
+.mp3{
+  height: 390px;
+  width: 771px;
+  box-shadow: 2px 3px 3px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+#cover_photo{
+  width: 220px;
+}
+
+.player{
+  height:30em;
+  width: 754px;
+}
+
+#song_title{
+  font-size: 30px;
+}
+
+.list{
+  height: 449px;
+  width: 771px;
+}
+
+.tracks_list{
+  width: 745px;
+  height: 300px;
+}
+
+#tracks{
+  text-align: center;
+  font-size: large;
+}
+}
+

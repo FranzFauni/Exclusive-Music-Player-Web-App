@@ -1,0 +1,113 @@
+<!--
+?My goal in this project is to create an exclusive media player for my band Puof newest album were are working on.
+
+?I have created a design in figma as a outline on which is where I also took the assets for layout designs.
+
+!note:there's some weird looking comment lines with ? and !. im using a plugin called better comments to color code-
+!my comments so i can find them more easily.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puof Album</title>
+  <link rel="stylesheet" href="style.css"> <!--scc link-->
+  <script defer src="webapp.js"></script>
+</head>
+<body>
+  <!-- ?
+  ? -*-*-*-*-*-*-*-*-*-*-
+  ? header class with logo & album name
+  ? -*-*-*-*-*-*-*-*-*-*-
+  ? -->
+  <div class="logo">
+    <img id="logo" src="Photos/logo.png"> <!--Logo for my band I made in figma-->
+    <h1 id="header-text">4 Time Zones Away</h1>
+  </div>
+
+  <!-- ?
+  ? -*-*-*-*-*-*-*-*-*-*-
+  ? main class with everything is in lol
+  ? -*-*-*-*-*-*-*-*-*-*-
+  ? -->
+  <main>
+    <!--!mp3 player-->
+    <div class="mp3">
+      <!-- header for this tile-->
+      <div class="mp3_header">
+        <h1 id="title_header">Mp3 Player</h1>
+        <img src="Photos/window buttons.png" id="window_buttons"> <!--Buttons i made in figma-->
+      </div>
+
+      <!-- player itself-->
+      <div class="player">
+        <img id="cover_photo" src="Photos/Rectangle 21.png" alt="cover_photo">
+
+        <div id="song_title">Home/Fold</div>
+        
+        <div class="progress_container">
+        <div class="progress"></div>
+        </div>
+
+        <audio id="song_audio" src="Audio/home.fold.mp3"></audio>
+
+        <!--!a class for the buttons with id so i can call it back for the java script -->
+        <div class="player_buttons">
+
+          <button id="rewind" class="action">
+            <img src="Photos/rewind.png" alt="rewind"> <!--Custom made buttons i made in figma-->
+          </button>
+          
+          <button id="skip" class="action">
+            <img src="Photos/skip.png" alt="skip">
+          </button>
+
+          <button id="play" class="action">
+            <img src="Photos/play.png" alt="play">
+          </button>
+
+          <button id="pause" class="action">
+            <img src="Photos/pause.png" alt="skip">
+          </button>
+
+          </div>
+        </div>
+      
+    <!--!for the list window-->
+    <!--? pretty much the same thing for the mp3 player window but just shows the song names-->
+    <div class="list">
+      <div class="list_header">
+        <h1 id="title_header">Track List</h1>
+        <img src="Photos/window buttons.png" id="window_buttons">
+      </div>
+        <div class="tracks_list">
+          <p id="tracks">Home/Fold</p>
+        </div>
+    </div>
+
+    <div class="contact">
+      <div class="contact_header"> 
+        <h1 id="title_header">Contact Us!</h1>
+        <img src="Photos/window buttons.png" id="window_buttons">
+      </div>
+
+        <form class="contact_form" action="/post" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button class="action" type="submit">
+            <img src="Photos/submit.png" alt="submit">
+          </button>
+        </form>
+    </div>
+
+    </div>
+
+
+
+  </main>
+</body>
+</html>
